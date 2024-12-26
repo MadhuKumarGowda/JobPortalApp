@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": ["expo-router"],
+    "name": "jobportal",
+    "slug": "jobportal",
+    "newArchEnabled": true
+  }
+}

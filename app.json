@@ -1,9 +1,20 @@
 {
   "expo": {
     "scheme": "acme",
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "name": "jobportal",
     "slug": "jobportal",
-    "newArchEnabled": true
+    "newArchEnabled": true,
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "25740d19-1b43-4973-a72d-f6e2530e5d6c"
+      }
+    },
+    "owner": "madhugowda86"
   }
 }

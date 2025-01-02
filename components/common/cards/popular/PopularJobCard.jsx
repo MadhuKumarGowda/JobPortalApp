@@ -6,10 +6,10 @@ import { images } from '../../../../constants'
 
 import styles from './popularjobcard.style'
 
-const PopularJobCard = ({item, selectedJob, handlepress}) => {
+const PopularJobCard = ({item, selectedJob, handleCardPress}) => {
   return (
     <TouchableOpacity style={styles.container(selectedJob, item)}
-    onPress={()=> handlepress(item)}
+    onPress={()=> handleCardPress(item)}
     >
       <TouchableOpacity style={styles.logoContainer(selectedJob, item)}>
         <Image source={{uri: item.employer_logo}} 
